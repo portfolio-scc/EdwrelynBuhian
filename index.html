@@ -6,6 +6,14 @@
     <title>Edwrelyn Buhian</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+    <script src="counter.js" defer></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EEZC5FZX8M"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-EEZC5FZX8M');
+    </script>
 </head>
 <body>
     <nav>
@@ -18,11 +26,16 @@
             <li><a href="index.html" class="active">About Me</a></li>
             <li><a href="life.html">Life At SCC</a></li>
             <li><a href="blogs.html">Personal Blogs</a></li>
+            <li><a href="diary.html">Diary</a></li>
         </ul>
+        <span class="counter-text">Visitors: <span id="visitorCount">0</span></span>
     </nav>
     <main>
         <div class="container">
             <section class="hero">
+                <div class="profile-image-wrapper">
+                    <img src="images/1.jpeg" alt="Edwrelyn Buhian" class="profile-image">
+                </div>
                 <h1 class="name">Edwrelyn Buhian</h1>
                 <p class="tagline">Computer Engineering Student</p>
             </section>
@@ -39,6 +52,12 @@
                     <p>
                         At school, I've developed through leadership roles, event hosting, and active involvement in student organizations. I aim to bring reliability, professionalism, and a practical approach to every team and task I handle.
                     </p>
+                </div>
+                <div class="image-gallery">
+                    <img src="images/2.jpeg" alt="Professional photo" class="gallery-image img-2">
+                    <img src="images/3.jpeg" alt="Campus life" class="gallery-image img-3">
+                    <img src="images/4.jpeg" alt="Event hosting" class="gallery-image img-4">
+                    <img src="images/5.jpeg" alt="Student activities" class="gallery-image img-5">
                 </div>
             </section>
 
